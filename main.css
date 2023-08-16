@@ -1,0 +1,181 @@
+body{
+    min-height: 100vh;
+    background-color:rgb(19, 16, 16);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width:400px;  
+    flex-direction: column;
+}
+.hori{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.change{
+    background-color: rgba(255, 255, 255, 0.148);
+    font-size:25px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:200px;
+    height:200px;
+    box-shadow: 3px 3px 6px 7px rgba(45, 38, 38, 0.63);
+    border-radius:50%;
+    color: azure;
+    text-shadow:4px 2px 9px rgb(36, 21, 21)
+}
+.left ,.right{
+  padding:20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.148);
+    font-size:18px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    box-shadow: 3px 3px 6px 7px rgba(45, 38, 38, 0.63);
+    color: azure;
+    text-shadow:4px 2px 9px rgb(36, 21, 21)
+}
+
+.inPut{
+    background-color: white;
+    width:270px;
+    height:20px;
+    font-size:17px;
+    padding:10px;
+    border-radius:6px;
+    box-shadow: 3px 3px 6px 3px rgba(45, 38, 38, 0.63);
+}
+.color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-bottom:10px;
+    border:3px solid rgba(255, 255, 255, 0.352);
+    border-radius:10px;
+    padding:4px;
+}
+
+#copyButton{
+    border:none;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: #ffffff00;
+    font-size:19px;     
+}
+.fa-solid{
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:39px;
+    font-size:19px;     
+    transition:all 1m s 1ms ease-in-out ;
+}
+
+.fa-solid:hover {
+    font-size:24px;
+}
+
+
+/* input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  } */
+
+/* label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+  }
+  
+ 
+  label::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000; 
+    background-color: #fff; 
+  }
+  
+  
+  input[type="checkbox"]:checked + label::before {
+    background-color: #000;
+  }
+  
+  
+  input[type="checkbox"]:checked + label::before {
+    content: "\2713"; 
+    text-align: center;
+    line-height: 18px;
+    color: #fff; 
+  } */
+
+  .radial{
+    border-radius:50%;
+    padding:3px;
+    margin-top:30px;
+    text-shadow:4px 2px 9px rgb(36, 21, 21);
+    height:100px;
+    width:100px;
+    display:flex;
+    background-color: rgba(66, 59, 59, 0.148);
+    box-shadow: 3px 3px 6px 7px rgba(45, 38, 38, 0.63);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:18px;
+  label {
+    margin-bottom: 4px;
+  }
+  input[type="checkbox"]{
+    width:24px;
+    height:24px;
+    color:red;
+  }
+  }
+  .colorPicker{
+   width:40px;
+   margin:7px;
+   height:40px;
+   border:none;
+   outline:none;
+   border:3px solid ;
+} 
+.colors2{
+  border-radius:50%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom:30px
+
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.border{
+  background-color: rgba(255, 255, 255, 0.238);
+  padding:18px;
+  border-radius:20px;
+  border:6px solid rgba(255, 255, 255, 0.352);
+}
